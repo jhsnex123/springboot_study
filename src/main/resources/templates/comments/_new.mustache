@@ -1,6 +1,6 @@
 <div class="card m-2" id="comments-new">
     <div class="card-body">
-<!-- 댓글 작성 폼 -->
+        <!-- 댓글 작성 폼 -->
         <form>
             <!-- 닉네임 입력-->
             <div class="mb-3">
@@ -54,7 +54,8 @@
             // HTTP 응답 코드에 따른 메시지 출력
             const msg = (response.ok) ? "댓글이 등록됐습니다." : "댓글 등록 실패..!";
             alert(msg);
-            //현재 페이지 새로 고침
+            // 현재 페이지 새로 고침
             window.location.reload();
-    }); // addEventListener 함수의 닫는 괄호와 세미콜론 추가
+        }); // 수정된 닫는 괄호와 세미콜론
+    });
 </script>
